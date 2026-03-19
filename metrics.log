@@ -1,0 +1,7 @@
+{"timestamp": "2026-03-19T21:49:18.517448+00:00", "cpu": 6.8, "memory": 44.1, "disk": 69.9, "process_count": 307}
+{"timestamp": "2026-03-19T21:49:24.524837+00:00", "cpu": 5.2, "memory": 44.1, "disk": 69.9, "process_count": 307}
+{"timestamp": "2026-03-19T21:49:30.534450+00:00", "cpu": 5.8, "memory": 44.2, "disk": 69.9, "process_count": 308}
+{"timestamp": "2026-03-19T21:49:36.540800+00:00", "cpu": 5.4, "memory": 44.1, "disk": 69.9, "process_count": 308}
+{"timestamp": "2026-03-19T21:49:42.548762+00:00", "cpu": 16.6, "memory": 44.2, "disk": 69.9, "process_count": 308}
+{"timestamp": "2026-03-19T21:49:48.556742+00:00", "cpu": 7.9, "memory": 44.2, "disk": 69.9, "process_count": 308}
+{"timestamp": "2026-03-19T21:49:54.564907+00:00", "cpu": 10.5, "memory": 42.5, "disk": 69.9, "process_count": 308}
