@@ -16,9 +16,14 @@ def start():
         stdout=subprocess.DEVNULL,
         stderr=subprocess.DEVNULL,
         stdin=subprocess.DEVNULL,
-        preexec_fn=os.setpgrp
+        preexec_fn=os.setpgrp   
     )
     print("Monitor running in background...")
+
+@app.command()
+def stop():
+    """Stop monitor service"""
+    subprocess.run(["pkill", "-f", "monitor.runner"])
 
 @app.command()
 def logs(lines: int = 10):

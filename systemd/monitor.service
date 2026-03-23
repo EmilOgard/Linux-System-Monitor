@@ -1,0 +1,12 @@
+[Unit]
+Description=Linux System Monitor
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/python3 -m monitor.runner
+WorkingDirectory=/home/emil/linux-system-monitor
+Restart=always
+User=emil
+
+[Install]
+WantedBy=multi-user.target
