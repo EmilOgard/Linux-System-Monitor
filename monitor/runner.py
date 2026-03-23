@@ -18,3 +18,7 @@ def run_monitor():
             print("[ALERT]", alert)
         
         time.sleep(config.get("interval", 5))
+
+
+if __name__ == "__main__":
+    run_monitor()
